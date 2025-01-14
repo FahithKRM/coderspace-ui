@@ -1,8 +1,85 @@
-# React + Vite
+# CoderSpace UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern profile management interface built with React, Vite, TailwindCSS, and React Icons. This project implements a responsive section with editable experiences, education, skills, and language components.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design
+- Edit functionality for all sections
+- Clean and modern UI
+- Interactive components
+- Form validation
+- Real-time updates
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- TailwindCSS
+- React Icons
+- React Hooks
+
+## 📁 Project Structure
+
+
+
+## ⚙️ Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/FahithKRM/coderspace.ui
+```
+
+2. Navigate to project directory
+```bash
+cd coderspace.ui
+```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+4. Start the development server
+```bash
+npm run dev
+```
+
+## 🔧 Configuration
+
+### Tailwind Configuration
+```javascript
+// tailwind.config.js
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+### Vite Configuration
+```javascript
+// vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 3000,
+  },
+});
+```
+
+## 📝 Code Style
+
+- Use functional components with hooks
+- Follow React best practices
+- Use proper naming conventions
+- Maintain consistent code formatting
+- Write clean and maintainable code
