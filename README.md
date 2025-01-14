@@ -20,7 +20,7 @@ A modern profile management interface built with React, Vite, TailwindCSS, and R
 - React Hooks
 
 ## 📁 Project Structure
-
+![image](https://github.com/user-attachments/assets/a69e47e3-200f-417e-8c5a-c15d54733dba)
 
 
 ## ⚙️ Installation
